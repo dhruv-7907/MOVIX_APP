@@ -7,8 +7,8 @@ import Select from "react-select";
 import ContentWrapper from '../../shared/contentWrapper/contentWrapper'
 import *as Action from '../../Redux/ExplorPage/explor_Action'
 import Carousel from "../../shared/carousel/carousel";
-import MovieCard from "../../shared/movieCard/MovieCard";
-import Spinner from "../../shared/spinner/Spinner";
+import MovieCard from "../../shared/movieCard/movieCard";
+import Spinner from "../../shared/spinner/spinner";
 import { useDispatch } from "react-redux";
 import "./style.scss";
 
