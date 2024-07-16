@@ -7,7 +7,7 @@ import './style.scss'
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import Spinner from '../../shared/spinner/Spinner';
+import Spinner from '../../shared/spinner/spinner'
 import MovieCard from '../../shared/movieCard/MovieCard';
 
 function SearchResult(props) {
