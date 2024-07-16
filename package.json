@@ -11,8 +11,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
-    "axios": "^1.5.0",
+    "axios": "^0.27.2",
     "dayjs": "^1.11.7",
+    "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
     "react-circular-progressbar": "^2.1.0",
@@ -25,7 +26,6 @@
     "react-router-dom": "^6.6.2",
     "react-select": "^5.7.0",
     "redux": "^4.2.1",
-    "node-sass": "^9.0.0",
     "sass": "^1.57.1"
   },
   "devDependencies": {
