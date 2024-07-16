@@ -1,0 +1,60 @@
+.header {
+    transform: translateY(0);
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.5s;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.25);
+    // backdrop-filter: blur(3.5px);
+
+    &.show {
+        background-color: var(--black3);
+    }
+
+    &.hide {
+        transform: translateY(-60px);
+    }
+
+    .nav-item {
+        color: white;
+        margin: 0 10px;
+        font-weight: 500;
+        position: relative;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--pink);
+        }
+    }
+
+    img {
+        height: 50px;
+    }
+
+    .searchInput {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        z-index: 2;
+        // margin-top: 110px;
+        transform: translateY(56px);
+        // transition: all ease 5s;
+        transition: all 5s ease;
+
+        Input {
+            border: 0;
+            background-color: white;
+            width: 90%;
+        }
+    }
+
+}
+
+// .collapse {
+//     &.show {
+//         background-color: var(--black3);
+//     }
+// }
